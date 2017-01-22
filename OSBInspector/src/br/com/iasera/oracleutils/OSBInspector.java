@@ -151,13 +151,13 @@ public class OSBInspector {
             cmd = parser.parse(options, args);
         } catch (ParseException e) {
             System.out.println(e.getMessage());
-            formatter.printHelp("utility-name", options);
+            formatter.printHelp("OSBInspector", options);
             System.exit(1);
             return;
         }
 
         if (cmd.hasOption("help")) {
-            formatter.printHelp("utility-name", options);
+            formatter.printHelp("OSBInspector", options);
             System.exit(1);
             return;
         }
@@ -179,7 +179,7 @@ public class OSBInspector {
         	port = Integer.parseInt(cmd.getOptionValue("port"));
         		
         } catch (NumberFormatException e) {
-            formatter.printHelp("utility-name", options);
+            formatter.printHelp("OSBInspector", options);
             System.exit(-1);       	
         }
 
