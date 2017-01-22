@@ -14,6 +14,8 @@ For this utility to work it depends on some Weblogic and Oracle Service Bus JAR 
 * **sb-kernel-impl.jar** from /<middleware_home>/Oracle_OSB1/lib
 * **wlfullclient.jar**
 
+It also depends on apache-commons-cli. Download or add as a dependency in your maven project.
+
 
 ## Basic Usage
 
