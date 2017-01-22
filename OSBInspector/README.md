@@ -1,11 +1,9 @@
 # OSB Inspector
-=====================
 
 Java utility for inspecting all Proxy Services in a Oracle Service Bus domain and its Proxies and Business references.
 It outputs a XML file that is also good to open with Spreadsheet programs like Excel.
 
 ## Compilation
-=====================
 
 For this utility to work it depends on some Weblogic and Oracle Service Bus JAR libraries:
 
@@ -18,7 +16,7 @@ For this utility to work it depends on some Weblogic and Oracle Service Bus JAR 
 
 
 ## Basic Usage
-=====================
+
 usage: java -jar OSBInspector.jar
  * -h,--host <arg>     Server Host
  * -help               Help
@@ -29,10 +27,7 @@ usage: java -jar OSBInspector.jar
 
 
 ## License Information
-=========================
 
 This is an _**open source**_ project! 
-
 Please review the LICENSE.md file for license information. 
-
 If you have any questions or concerns on licensing, please contact denys.sene@gmail.com.
